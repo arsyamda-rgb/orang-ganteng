@@ -1,0 +1,15 @@
+name: VeyrionRoleplay
+version: 1.0.0
+main: id.veyrion.roleplay.VeyrionPlugin
+api-version: '1.21'
+description: Menu awal dan gacha ras untuk server Veyrion Roleplay
+commands:
+  veyrion:
+    description: Menu Veyrion Roleplay
+    aliases: [vr]
+  ras:
+    description: Lihat ras kamu
+permissions:
+  veyrion.admin:
+    description: Reset ras pemain dan reload config
+    default: op

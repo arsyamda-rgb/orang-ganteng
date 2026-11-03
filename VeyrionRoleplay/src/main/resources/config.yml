@@ -1,0 +1,21 @@
+# Link Discord yang dibuka dari tombol Discord
+discord-url: "https://discord.gg/HQ3cM2psVX"
+
+# Pesan saat pemain menekan tombol Keluar
+exit-message: "Sampai jumpa di Veyrion, petualang."
+
+# weight  = peluang relatif hasil gacha (semua 25 = peluang sama)
+# iconic  = kalimat "AYO TUNJUKKAN <iconic> DI DUNIA VEYRION"
+races:
+  elf:
+    weight: 25
+    iconic: "SIHIRMU"
+  beast:
+    weight: 25
+    iconic: "TARING DAN CAKARMU"
+  human:
+    weight: 25
+    iconic: "KEBERANIANMU"
+  dragon:
+    weight: 25
+    iconic: "SAYAPMU"
