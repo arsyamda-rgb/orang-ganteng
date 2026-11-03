@@ -20,12 +20,14 @@ jobs:
           distribution: temurin
           java-version: '21'
           cache: maven
+          cache-dependency-path: VeyrionRoleplay/pom.xml
 
       - name: Build plugin
+        working-directory: ./VeyrionRoleplay
         run: mvn -B clean package
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
           name: VeyrionRoleplay
-          path: target/*.jar
+          path: VeyrionRoleplay/target/*.jar
